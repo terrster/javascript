@@ -42,3 +42,15 @@
 #cap2:target{
     display: block;
 }
+
+h1,
+h2
+{
+    text-align: center;
+}
+
+img{
+    position: relative;
+    min-width: 50%;
+    margin: auto;
+}
