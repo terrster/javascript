@@ -19,7 +19,7 @@ function Operacion1(){
     let area = (num2 * num3);
     console.log(area);
     let volumen = area * num4;
-    let total = volumen * num1 * 1000;
+    let total = volumen * num1;
 
     const res = document.getElementById('res');
     res.innerHTML = `El Costo total del es ${total} `;
@@ -33,7 +33,7 @@ function Operacion2(){
     let area = (num2 * num3)/2;
     console.log(area);
     let volumen = area * num4;
-    let total = volumen * num1 * 1000;
+    let total = volumen * num1;
 
     const res = document.getElementById('res');
     res.innerHTML = `El Costo total del es ${total} `;
@@ -47,7 +47,7 @@ function Operacion3(){
     let area = num2 * num3 * 3.14159;
     console.log(area);
     let volumen = area * num4;
-    let total = volumen * num1 * 1000;
+    let total = volumen * num1;
 
     const res = document.getElementById('res');
     res.innerHTML = `El Costo total del es ${total} `;
@@ -62,7 +62,7 @@ function Operacion4(){
     let area = (num2 * num3) + (num4 * 3.14159);
     console.log(area);
     let volumen = area * num5;
-    let total = volumen * num1 * 1000;
+    let total = volumen * num1;
 
     const res = document.getElementById('res');
     res.innerHTML = `El Costo total del es ${total} `;
