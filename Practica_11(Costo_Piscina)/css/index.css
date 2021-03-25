@@ -1,0 +1,44 @@
+.con{
+    display: flex;
+    position: relative;
+}
+
+/* a:hover{
+    background-color: black;
+} */
+
+#c2{
+    
+    display: none;
+}
+
+#c2:target{
+    display: block;
+}
+
+#t2{
+    
+    display: none;
+}
+
+#t2:target{
+    display: block;
+}
+
+#cr2{
+    
+    display: none;
+}
+
+#cr2:target{
+    display: block;
+}
+
+#cap2{
+    
+    display: none;
+}
+
+#cap2:target{
+    display: block;
+}
