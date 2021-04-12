@@ -61,9 +61,9 @@ function Operacion(){
     }else if (hora > 2 && hora <= 5 ){
         costo = ((hora -2) * 4) + 10;
     }else if (hora > 5 && hora <= 10){
-        costo = ((hora -2) * 3) + 10;
+        costo = ((hora -5) * 3) + 26;
     }else{
-        costo = ((hora -2) * 2) + 10;
+        costo = ((hora -10) * 2) + 41;
     }
 
     console.log("costo",costo);
