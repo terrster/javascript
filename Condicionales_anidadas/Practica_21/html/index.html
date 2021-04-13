@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./../css/index.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-3 mt-3 mb-3">Poliza de Seguro</h1>
+      <hr class="my-2">
+      <div class="form-group mt-3">
+        <label for="input1">Selecione Tipo de poliza</label>
+        <select class="form-control" name="" id="input1">
+          <option value="1">Cobertura Amplia</option>
+          <option value="2">Daños a Terceros</option>
+        </select>
+      </div>
+      <form class="row g-3 mt-3">
+        <div class="col">
+          <input class="form-check-input" type="checkbox" id="ex1">
+          <label class="form-check-label" for="ex1">
+            Bebe Seguido?
+          </label>
+        </div>
+        <div class="col">
+          <input class="form-check-input" type="checkbox" id="ex2">
+          <label class="form-check-label" for="ex2">
+            Usa lentes?
+          </label>
+        </div>
+        <div class="col">
+          <input class="form-check-input" type="checkbox" id="ex3">
+          <label class="form-check-label" for="ex3">
+            Padece alguna enfermedad(Diabetes/Hipertencion)?
+          </label>
+        </div>
+        <div class="col">
+          <input class="form-check-input" type="checkbox" id="ex4">
+          <label class="form-check-label" for="ex4">
+            Tiene más de 40 años?
+          </label>
+        </div>
+        </form>
+      </div>
+      <div class="row mt-3">
+        <button type="button" name="" id="Calcular" class="btn btn-outline-primary btn-lg btn-block"> Calcular
+          aumento de credito</button>
+      </div>
+      <div id="res" class="mt-3"></div>
+    </div>
+  </div>
+
+    <script src="./../js/index.js"></script>
+</body>
+
+</html>
