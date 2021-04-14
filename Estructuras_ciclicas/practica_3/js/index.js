@@ -10,7 +10,8 @@ function Operacion(){
     let respuesta = document.getElementById('res');
 
     while (continuar == true) {
-        let calificacion = prompt(`Ingrese la calificacion`);   
+        
+        let calificacion = prompt(`Ingrese la ${contador+1}° estatura`);   
         
         if (calificacion == null) {
             continuar = false;
@@ -25,6 +26,6 @@ function Operacion(){
 
     
         
-    respuesta.innerHTML = `<span> El promedio es: ${resultado}</span>`;
+    respuesta.innerHTML = `<span> La estatura promedio es: ${resultado}</span>`;
 
 }
