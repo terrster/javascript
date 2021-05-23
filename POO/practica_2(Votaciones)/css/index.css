@@ -1,0 +1,17 @@
+h1, h2{
+    text-align: center;
+}
+
+.ctexto{
+    height:10vh;
+    width: 100%;
+    border: 2px solid rgb(141, 100, 236);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.alert{
+    text-align: center;
+}
