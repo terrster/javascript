@@ -1,0 +1,33 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    position: relative;
+    width: 100%;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 3vw;
+}
+
+p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 2vw;
+}
+
+#circulacion {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    border: 2px solid blue;    
+}
+
+#carro{
+    position: absolute;
+    top: 2%;
+    max-width: 15%;
+}
