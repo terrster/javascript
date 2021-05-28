@@ -25,7 +25,7 @@ function RemoveTareas(event){
     if (event.target.nodeName != "SPAN") return; 
     let libye = event.target.parentElement.parentElement;
     tareas.Tareamas(listB,null,libye.textContent);
-    listaA.remove(libye);
+    libye.remove();
     indexSpan--;
 }
 

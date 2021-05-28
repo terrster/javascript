@@ -11,14 +11,15 @@ class listA{
     }
     Tareamas(ul,origen,contenido){
         const li = document.createElement("li");
-        li.classList = "list-group-item  text-break";
+        li.classList = "list-group-item d-flex justify-content-between align-items-center  text-break";
         li.textContent = contenido;
 
         const btnx = document.createElement('button');
-        btnx.classList = "close";
+        btnx.classList = "btn btn-primary me-md-2 btn-sm";
+        
 
         const span = document.createElement('span');
-        span.classList = 'badge badge-primary badge-pill text-danger';
+        span.classList = 'badge rounded-pill text-white';
         span.textContent = "X";
 
         ul.appendChild(li);
