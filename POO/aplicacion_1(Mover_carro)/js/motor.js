@@ -18,5 +18,5 @@ function inicio(event) {
     const Motor = new motor;
 
     Motor.teclas(event);
-    
+    Direccion.choque();
 }

@@ -37,4 +37,20 @@ class direccion{
                 break;         
         }
     }
+    choque (){
+        let carro = document.getElementById('carro');
+        let div = document.getElementById('circulacion');
+
+        let z = (div.clientWidth - carro.clientWidth);
+        div.style.overflow = 'hidden';
+        if (carro.offsetLeft < 0 ) {
+            carro.style.left = `${this.distanciax=1}%`
+        } else if (carro.offsetLeft > z){
+            carro.style.offsetLeft = `${this.distanciax--}%`
+        } else if (carro.offsetTop < 0 ){
+            carro.style.top = `${this.distanciay=2}%`
+        } else if (carro.offsetTop > div.clientHeight - carro.clientHeight){
+            carro.style.top = `${this.distanciay--}%`;
+        }
+    }
 }
